@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --dark-gray: #333333;
+  --gray: #7F7F7F;
+  --light-gray: #BDBDBD;
+  --white: #FFFFFF;
+}
+
+body{
+  display: flex;
+  height:100%;
+  justify-content: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  height: 100vh;
+}
+
+header{
+  margin-top: 3%;
+}
+
+.title-page{
+  font-family: Inconsolata;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+
+  color: var(--dark-gray);
+}
+
+.sections{
+  margin-top: 15%;
+  display: flex;
+  height: 100%;
+}
+
+.section-image{
+  width: 50%;
+  justify-content: center;
+}
+
+.container-image{
+  width:90%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.section-text{
+  width: 50%;
+}
+
+.title{
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 95px;
+  letter-spacing: -0.035em;
+
+  color: var(--dark-gray);
+}
+
+.message{
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+  color: var(--gray);
+  max-width: 380px;
+  margin: 5% 0 5% 0;
+}
+
+button{
+  width: 216px;
+  height: 68px;
+  background-color: var(--dark-gray);
+  
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--white);
+
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+  
+  margin-top: 5%;
+}
+
+button:hover {
+  background-color: var(--white);
+  color: var(--dark-gray);
+  transition: 0.5s ease-in;
+}
+
+.credits{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  text-align: center;
+  color: var(--light-gray);
+}
+
+.credits a{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.credits a:link,
+.credits a:visited{
+  font-weight: bold;
+  color: var(--gray);
+}
+
+@media (max-width: 900px) {
+  .title{
+    font-size: 48px;
+    line-height: 71px;
+  }
+
+  .message{
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .sections{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    margin-bottom: 15%;
+  }
+
+  .section-image,
+  .section-text,
+  .container-image{
+    width: 100%;
+  }
+}
