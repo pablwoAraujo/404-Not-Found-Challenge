@@ -28,7 +28,7 @@ header{
 }
 
 .title-page{
-  font-family: Inconsolata;
+  font-family: 'Inconsolata';
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -63,7 +63,7 @@ img {
 }
 
 .title{
-  font-family: Space Mono;
+  font-family: 'Space Mono';
   font-style: normal;
   font-weight: bold;
   font-size: 64px;
@@ -74,7 +74,7 @@ img {
 }
 
 .message{
-  font-family: Space Mono;
+  font-family: 'Space Mono';
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -90,7 +90,7 @@ button{
   height: 68px;
   background-color: var(--dark-gray);
   
-  font-family: Space Mono;
+  font-family: 'Space Mono';
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -110,7 +110,7 @@ button:hover {
 }
 
 .credits{
-  font-family: Montserrat;
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
